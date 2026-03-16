@@ -6,6 +6,7 @@
 # ------------------------------------------------------------------
 
 # Load Excel file into R, select "Raw Data" sheet (skip first line to correct header formatting)
+library(readxl)
 TSA_raw <- read_excel("C:/Users/ninni/OneDrive - University of Bedfordshire/Documents/Year 3/BHS013-3 Biomedical Science Reserach Project/Lab Results/Thermal Shift Assay/TSA 1 Protocol/BiochemFYP_260126.xlsx", 
                        sheet = "Raw Data", skip = 1)
 
@@ -156,6 +157,7 @@ legend("topleft",
 Tm_index <- apply(slope_smooth, 2, which.max)
 
 Tm <- temp_d[Tm_index]
+Tm
 
 Tm_avg <- c(mean(Tm[1:2]),
             mean(Tm[3:4]),
