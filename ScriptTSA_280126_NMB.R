@@ -6,6 +6,7 @@
 # ------------------------------------------------------------------
 
 # Load Excel file into R, select "Raw Data" sheet (skip first line to correct header formatting)
+library(readxl)
 TSA_raw <- read_excel("C:/Users/ninni/Desktop/TSA Results/1BiochemFYP_280126_NMB.xlsx", 
                       sheet = "Sheet2", skip = 1)
 
@@ -162,7 +163,8 @@ legend("topleft",
 Tm_index <- apply(slope_smooth, 2, which.max)
 
 Tm <- temp_d[Tm_index]
-
+Tm
+                      
 Mean_Tm_ctrl <- c(mean(Tm[1:2]))
 Mean_Tm_EtOH <- c(mean(Tm[3:5]))
 Mean_Tm_EPA <- c(mean(Tm[6:8]))
