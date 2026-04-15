@@ -12,7 +12,7 @@ This repository contains R scripts and raw data used for the analysis of thermal
 ### R Scripts
 `RScripts/` → Scripts used for data processing, analysis, and plotting.
 
-### Contents Overview
+### Script-Data Relationships
 The following scripts corrspond to specific datasets and figures in the report:
 - `Script_Chromatogram` + `2026_2300211_ZAG PURIFICATION 001` (Figure 3).
 - `ScriptTSA_Baseline` + `BiochemFYP_260126`: TSA 1, Jan 26 → Baseline determination (Figure 5).
@@ -37,10 +37,24 @@ The following scripts corrspond to specific datasets and figures in the report:
 ÄKTA Start gel-filtration chromatography was used to purify recombinant zinc-α2-glycoprotein (ZAG), and thermal shift assays were performed to assess ZAG binding to eicosapentaenoic acid (EPA) and DAUDA.
 Data was collected in Excel spreadsheets and analysed using R (version 4.5.2).
 
+## Running the Analyses
+### Software Requirements
+- R (v4.5.2) and RStudio (recommended)
+
+### R Packages Requirements
+- readxl → Read Excel (.xlsx) files.
+- dplyr → Enable dataframe manipulation.
+
+### Analysis Workflow
+To reproduce results, open the relevant R scripts in the RScripts folder and run them in RStudio, ensuring that the working directory is set to where the raw data Excel files are downloaded, so that the file paths are correctly recognised.
+
 ## Notes
 - No raw data files have been modified.
 - `10BiochemFYP_meanEPA` consists of collated raw data from `3BiochemFYP_020226_run1` and `9BiochemFYP_060226_run4`. However, no raw data values have been modified.
 - R scripts are intended for reproduction of the analysis in the project report.
+
+## Awknowledgement
+This project was conducted at the University of Bedfordshire for the academic year 2025-2026 final year project in biochemistry for my BSc (Hons) Biomedical Science degree. This project was supervised by Dr. Lindsay McDermott and Dr. Robin Maytum.
 
 ## Author
 Ninni Mangerøy Bugge
