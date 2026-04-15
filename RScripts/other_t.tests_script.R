@@ -150,7 +150,7 @@ p_values <- c(t1$p.value, t2$p.value, t3$p.value, t4$p.value) # extract p-values
 names(p_values) <- c("EPA52", "EPA72", "DAUDA18", "DAUDA50")
 p_values
 
-p_adjusted <- p.adjust(p_values, method = "holm") # Bonferroni correction
+p_adjusted <- p.adjust(p_values, method = "holm") # Holm correction
 
 names(p_adjusted) <- c("EPA52", "EPA72", "DAUDA18", "DAUDA50")
 p_adjusted
