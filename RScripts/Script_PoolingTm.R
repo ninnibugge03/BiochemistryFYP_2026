@@ -64,3 +64,9 @@ DAUDA2_Tm; sd(TMs_DAUDA2)
 
 (-EtOH_Tm) + DAUDA1_Tm
 (-EtOH_Tm) + DAUDA2_Tm
+
+# -----------------------------------------------------------------------
+# Perform a t-test to compare baseline control VS. ethanol control
+# -----------------------------------------------------------------------
+
+t.test(Tms_ctrl, Tms_etoh)
