@@ -1,4 +1,5 @@
-# BSc (Hons) Biomedical Science Final Year Biochemistry Project - Thermal Shift Assay Analysis & Chromatographic Purification
+# BSc (Hons) Biomedical Science Final Year Biochemistry Project
+## Thermal Shift Assay Analysis & Gel-filtration Chromatogram
 
 ## Overview
 This repository contains R scripts and raw data used for the analysis of thermal shift assay results and chromatographic protein purification results for my BSc (Hons) Biomedical Science final year project report in biochemistry at the University of Bedfordshire.
