@@ -20,17 +20,18 @@ The following scripts corrspond to specific datasets and figures in the report:
 - `ScriptTSA_300126_Run3` + `2BiochemFYP_300126_Run3` → TSA 3, Jan 30: 100% EtOH, 264.48μM EPA (Figure 6).
 - `ScriptTSA_020226_run1` + `3BiochemFYP_020226_run1` → TSA 4, Feb 2: 10% EtOH, 26.45μM EPA (Figure A4, A-B).
 - `ScriptTSA_020226_run2_1` + `4BiochemFYP_020226_Run2` → TSA 5, Feb 2: 10% EtOH, 39.67μM EPA (Figure A2).
-- `ScriptTSA_020226_run2_2` + `4BiochemFYP_020226_Run2` → TSA 6, Feb 2: 10% EtOH, 52.90μM EPA (Figure A3, A-B).
-- `ScriptTSA_040226_run1_1` + `5BiochemFYP_040226_run1` → TSA 7, Feb 4: 10% EtOH, 52.90μM EPA (Figure A3, C-D).
-- `ScriptTSA_040226_run1_2` + `5BiochemFYP_040226_run1` → TSA 5, Feb 4: 10% EtOH, 33.73μM EPA (Figure A5).
-- `ScriptTSA_040226_run3` + `6BiochemFYP_040226_run3` → TSA 5, Feb 4: 10% EtOH, 72.73μM EPA (Figure 8).
-- `ScriptTSA_060226_run1_D` + `7BiochemFYP_060226_run1_D` → TSA 5, Feb 6: 10% EtOH, 50.62μM DAUDA (Figure A6).
-- `ScriptTSA_060226_run2_D` + `8BiochemFYP_060226_run2_D` → TSA 5, Feb 6: 10% EtOH, 18.41μM DAUDA (Figure 9).
-- `ScriptTSA_060226_run4_1` + `9BiochemFYP_060226_run4` → TSA 5, Feb 6: 10% EtOH, 26.45μM EPA (Figure A4, C-D).
-- `ScriptTSA_060226_run4_2` + `9BiochemFYP_060226_run4` → TSA 5, Feb 6: 10% EtOH, 26.45μM EPA (Figure A4, E-F).
+- `ScriptTSA_020226_run2_2` + `4BiochemFYP_020226_Run2` → TSA 5, Feb 2: 10% EtOH, 52.90μM EPA (Figure A3, A-B).
+- `ScriptTSA_040226_run1_1` + `5BiochemFYP_040226_run1` → TSA 6, Feb 4: 10% EtOH, 52.90μM EPA (Figure A3, C-D).
+- `ScriptTSA_040226_run1_2` + `5BiochemFYP_040226_run1` → TSA 6, Feb 4: 10% EtOH, 33.73μM EPA (Figure A5).
+- `ScriptTSA_040226_run3` + `6BiochemFYP_040226_run3` → TSA 7, Feb 4: 10% EtOH, 72.73μM EPA (Figure 8).
+- `ScriptTSA_060226_run1_D` + `7BiochemFYP_060226_run1_D` → TSA 8, Feb 6: 10% EtOH, 50.62μM DAUDA (Figure A6).
+- `ScriptTSA_060226_run2_D` + `8BiochemFYP_060226_run2_D` → TSA 9, Feb 6: 10% EtOH, 18.41μM DAUDA (Figure 9).
+- `ScriptTSA_060226_run4_1` + `9BiochemFYP_060226_run4` → TSA 10, Feb 6: 10% EtOH, 26.45μM EPA (Figure A4, C-D).
+- `ScriptTSA_060226_run4_2` + `9BiochemFYP_060226_run4` → TSA 10, Feb 6: 10% EtOH, 26.45μM EPA (Figure A4, E-F).
 - `Script_MeanEPA` + `10BiochemFYP_meanEPA` → mean EPA plot with XμM EPA (Figure 7).
 - `Script_PoolingTm` → Calculation of mean TM, SD, and ΔTm (Table 1).
-- `t.tests_script` → statistical analyses for summary results (Table 1)).
+- `26uM_EPA_t.test_script` + `10BiochemFYP_meanEPA` → statistical analysis of 26.45μM EPA for summary results (Table 1).
+- `other_t.tests.script` + `5BiochemFYP_040226_run1` + `6BiochemFYP_040226_run3` + `7BiochemFYP_060226_run1_D` + `8BiochemFYP_060226_run2_D` → statistical analyses of two EPA and DAUDA concentrations for summary results (Table 1).
 
 ## Methods Summary
 ÄKTA Start gel-filtration chromatography was used to purify recombinant zinc-α2-glycoprotein (ZAG), and thermal shift assays were performed to assess ZAG binding to eicosapentaenoic acid (EPA) and DAUDA.
@@ -38,7 +39,7 @@ Data was collected in Excel spreadsheets and analysed using R (version 4.5.2).
 
 ## Notes
 - No raw data files have been modified.
-- `10BiochemFYP_meanEPA` consists of collated raw data from `3BiochemFYP_020226_run1` and `9BiochemFYP_060226_run4`. However, no raw data has been modified.
+- `10BiochemFYP_meanEPA` consists of collated raw data from `3BiochemFYP_020226_run1` and `9BiochemFYP_060226_run4`. However, no raw data values have been modified.
 - R scripts are intended for reproduction of the analysis in the project report.
 
 ## Author
