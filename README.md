@@ -14,6 +14,7 @@ This repository contains R scripts and raw data used for the analysis of thermal
 ### Contents Overview
 The following scripts corrspond to specific datasets and figures in the report:
 - `Script_Chromatogram` + `2026_2300211_ZAG PURIFICATION 001` (Figure 3).
+
 - `ScriptTSA_Baseline` + `BiochemFYP_260126`: TSA 1, Jan 26 → Baseline determination (Figure 5).
 - `ScriptTSA_280126_NMB` + `1BiochemFYP_280126_NMB` → TSA 2, Jan 28: 100% EtOH, 727.32μM EPA (Figure A1).
 - `ScriptTSA_300126_Run3` + `2BiochemFYP_300126_Run3` → TSA 3, Jan 30: 100% EtOH, 264.48μM EPA (Figure 6).
@@ -28,6 +29,7 @@ The following scripts corrspond to specific datasets and figures in the report:
 - `ScriptTSA_060226_run4_1` + `9BiochemFYP_060226_run4` → TSA 5, Feb 6: 10% EtOH, 26.45μM EPA (Figure A4, C-D).
 - `ScriptTSA_060226_run4_2` + `9BiochemFYP_060226_run4` → TSA 5, Feb 6: 10% EtOH, 26.45μM EPA (Figure A4, E-F).
 - `Script_MeanEPA` + `10BiochemFYP_meanEPA` → mean EPA plot with XμM EPA (Figure 7).
+
 - `Script_PoolingTm` → Calculation of mean TM, SD, and ΔTm (Table 1).
 - `t.tests_script` → statistical analyses for summary results (Table 1)).
 
