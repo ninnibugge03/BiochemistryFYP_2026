@@ -29,8 +29,8 @@ The following scripts corrspond to specific datasets and figures in the report:
 - `ScriptTSA_060226_run4_1` + `9BiochemFYP_060226_run4` → TSA 10, Feb 6: 10% EtOH, 26.45μM EPA (Figure A4, C-D).
 - `ScriptTSA_060226_run4_2` + `9BiochemFYP_060226_run4` → TSA 10, Feb 6: 10% EtOH, 26.45μM EPA (Figure A4, E-F).
 - `Script_MeanEPA` + `10BiochemFYP_meanEPA` → mean EPA plot with XμM EPA (Figure 7).
-- `Script_PoolingTm` → Calculation of mean TM, SD, and ΔTm (Table 1).
-- `26uM_EPA_t.test_script` + `10BiochemFYP_meanEPA` → statistical analysis of 26.45μM EPA for summary results (Table 1).
+- `Script_PoolingTm` → Calculation of mean Tm, SD, ΔTm, and p-value of 10% EtOH VS. control (Table 1).
+- `updated EPA26uM_t.test.R` + `10BiochemFYP_meanEPA` → statistical analysis of 26.45μM EPA for summary results (Table 1).
 - `other_t.tests.script` + `5BiochemFYP_040226_run1` + `6BiochemFYP_040226_run3` + `7BiochemFYP_060226_run1_D` + `8BiochemFYP_060226_run2_D` → statistical analyses of two EPA and DAUDA concentrations for summary results (Table 1).
 
 ## Methods Summary
