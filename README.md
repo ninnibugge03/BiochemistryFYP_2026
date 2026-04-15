@@ -31,7 +31,7 @@ The following scripts and raw data files are corresponding to each other:
 - t.tests_script => perform t.tests (for summary results table (Table 1)).
 
 ## METHODS SUMMARY
-ÄKTA Start gel-filtration chromatography was used to purify recombinant zinc-α2-glycoprotein (ZAG), and thermal shift assays were performed to assess ZAG binding to eicosapentaenoic acid (EPA).
+ÄKTA Start gel-filtration chromatography was used to purify recombinant zinc-α2-glycoprotein (ZAG), and thermal shift assays were performed to assess ZAG binding to eicosapentaenoic acid (EPA) and DAUDA.
 Data was collected in Excel spreadsheets and analysed using R version 4.5.2.
 
 ## NOTES
