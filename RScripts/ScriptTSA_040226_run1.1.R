@@ -166,5 +166,44 @@ Mean_Tm_ctrl <- c(mean(Tm[1:2]))
 Mean_Tm_EtOH <- c(mean(Tm[3:5]))
 Mean_Tm_EPA <- c(mean(Tm[6:8]))
 
+# --------------------------------------------------------------------
+# add arrows and labels for Tm values
+# --------------------------------------------------------------------
+
+arrows(70,905, Mean_Tm_EPA, 905, # x,y end and x,y start coordinates
+       length = 0.025,
+       angle = 30,
+       code = 1,
+       col = "magenta")
+
+text(68.5, 905, # numerical vector( x,y) for text placement
+     pos = 4, # position of text to vector, 4 = to the right of
+     labels = expression("Tm = 61.7"*degree*"C"),
+     col = "magenta",
+     cex = 0.57)
+
+arrows(70,600, Mean_Tm_EtOH, 600,
+       length = 0.025,
+       angle = 30,
+       code = 1,
+       col = "dodgerblue")
+
+text(68.5, 600,
+     pos = 4,
+     labels = expression("Tm = 61.5"*degree*"C"),
+     col = "dodgerblue",
+     cex = 0.57)
+
+arrows(70,1427, Mean_Tm_ctrl, 1427,
+       length = 0.025,
+       angle = 30,
+       code = 1,
+       col = "black")
+
+text(68.5, 1427,
+     pos = 4,
+     labels = expression("Tm = 62.7"*degree*"C"),
+     col = "black",
+     cex = 0.57)
 
 dev.off() # mark end of plot figure
