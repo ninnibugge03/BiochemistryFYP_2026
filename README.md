@@ -16,18 +16,18 @@ This repository contains R scripts and raw data used for the analysis of thermal
 The following scripts corrspond to specific datasets and figures in the report:
 - `Script_Chromatogram` + `2026_2300211_ZAG PURIFICATION 001` (Figure 3).
 - `ScriptTSA_Baseline` + `BiochemFYP_260126`: TSA 1, Jan 26 → Baseline determination (Figure 5).
-- `ScriptTSA_280126_NMB` + `1BiochemFYP_280126_NMB` → TSA 2, Jan 28: 100% EtOH, 727.32μM EPA (Figure A1).
+- `ScriptTSA_280126_NMB` + `1BiochemFYP_280126_NMB` → TSA 2, Jan 28: 100% EtOH, 727.32μM EPA (Figure B1).
 - `ScriptTSA_300126_Run3` + `2BiochemFYP_300126_Run3` → TSA 3, Jan 30: 100% EtOH, 264.48μM EPA (Figure 6).
-- `ScriptTSA_020226_run1` + `3BiochemFYP_020226_run1` → TSA 4, Feb 2: 10% EtOH, 26.45μM EPA (Figure A4, A-B).
-- `ScriptTSA_020226_run2_1` + `4BiochemFYP_020226_Run2` → TSA 5, Feb 2: 10% EtOH, 39.67μM EPA (Figure A2).
-- `ScriptTSA_020226_run2_2` + `4BiochemFYP_020226_Run2` → TSA 5, Feb 2: 10% EtOH, 52.90μM EPA (Figure A3, A-B).
-- `ScriptTSA_040226_run1_1` + `5BiochemFYP_040226_run1` → TSA 6, Feb 4: 10% EtOH, 52.90μM EPA (Figure A3, C-D).
-- `ScriptTSA_040226_run1_2` + `5BiochemFYP_040226_run1` → TSA 6, Feb 4: 10% EtOH, 33.73μM EPA (Figure A5).
-- `ScriptTSA_040226_run3` + `6BiochemFYP_040226_run3` → TSA 7, Feb 4: 10% EtOH, 72.73μM EPA (Figure 8).
-- `ScriptTSA_060226_run1_D` + `7BiochemFYP_060226_run1_D` → TSA 8, Feb 6: 10% EtOH, 50.62μM DAUDA (Figure A6).
-- `ScriptTSA_060226_run2_D` + `8BiochemFYP_060226_run2_D` → TSA 9, Feb 6: 10% EtOH, 18.41μM DAUDA (Figure 9).
-- `ScriptTSA_060226_run4_1` + `9BiochemFYP_060226_run4` → TSA 10, Feb 6: 10% EtOH, 26.45μM EPA (Figure A4, C-D).
-- `ScriptTSA_060226_run4_2` + `9BiochemFYP_060226_run4` → TSA 10, Feb 6: 10% EtOH, 26.45μM EPA (Figure A4, E-F).
+- `ScriptTSA_020226_run1` + `3BiochemFYP_020226_run1` → TSA 4, Feb 2: 10% EtOH, 26.45μM EPA (Figure B3, A-B).
+- `ScriptTSA_020226_run2_1` + `4BiochemFYP_020226_Run2` → TSA 5, Feb 2: 10% EtOH, 39.67μM EPA (Figure B2).
+- `ScriptTSA_020226_run2_2` + `4BiochemFYP_020226_Run2` → TSA 5, Feb 2: 10% EtOH, 52.90μM EPA (Figure B5).
+- `ScriptTSA_040226_run1_1` + `5BiochemFYP_040226_run1` → TSA 6, Feb 4: 10% EtOH, 52.90μM EPA (Figure 8).
+- `ScriptTSA_040226_run1_2` + `5BiochemFYP_040226_run1` → TSA 6, Feb 4: 10% EtOH, 33.73μM EPA (Figure B4).
+- `ScriptTSA_040226_run3` + `6BiochemFYP_040226_run3` → TSA 7, Feb 4: 10% EtOH, 72.73μM EPA (Figure 9).
+- `ScriptTSA_060226_run1_D` + `7BiochemFYP_060226_run1_D` → TSA 8, Feb 6: 10% EtOH, 50.62μM DAUDA (Figure 11).
+- `ScriptTSA_060226_run2_D` + `8BiochemFYP_060226_run2_D` → TSA 9, Feb 6: 10% EtOH, 18.41μM DAUDA (Figure 10).
+- `ScriptTSA_060226_run4_1` + `9BiochemFYP_060226_run4` → TSA 10, Feb 6: 10% EtOH, 26.45μM EPA (Figure B3, C-D).
+- `ScriptTSA_060226_run4_2` + `9BiochemFYP_060226_run4` → TSA 10, Feb 6: 10% EtOH, 26.45μM EPA (Figure B3, E-F).
 - `Script_MeanEPA` + `10BiochemFYP_meanEPA` → mean EPA plot with XμM EPA (Figure 7).
 - `Script_PoolingTm` → Calculation of mean Tm, SD, ΔTm, and p-value of 10% EtOH VS. control (Table 1).
 - `updated EPA26uM_t.test.R` + `10BiochemFYP_meanEPA` → statistical analysis of 26.45μM EPA for summary results (Table 1).
