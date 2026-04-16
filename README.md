@@ -21,8 +21,8 @@ The following scripts corrspond to specific datasets and figures in the report:
 - `ScriptTSA_020226_run1` + `3BiochemFYP_020226_run1` → TSA 4, Feb 2: 10% EtOH, 26.45μM EPA (Figure B3, A-B).
 - `ScriptTSA_020226_run2_1` + `4BiochemFYP_020226_Run2` → TSA 5, Feb 2: 10% EtOH, 39.67μM EPA (Figure B2).
 - `ScriptTSA_020226_run2_2` + `4BiochemFYP_020226_Run2` → TSA 5, Feb 2: 10% EtOH, 52.90μM EPA (Figure B5).
-- `ScriptTSA_040226_run1_1` + `5BiochemFYP_040226_run1` → TSA 6, Feb 4: 10% EtOH, 52.90μM EPA (Figure 8).
-- `ScriptTSA_040226_run1_2` + `5BiochemFYP_040226_run1` → TSA 6, Feb 4: 10% EtOH, 33.73μM EPA (Figure B4).
+- `ScriptTSA_040226_run1.1` + `5BiochemFYP_040226_run1` → TSA 6, Feb 4: 10% EtOH, 52.90μM EPA (Figure 8).
+- `ScriptTSA_040226_run1.2` + `5BiochemFYP_040226_run1` → TSA 6, Feb 4: 10% EtOH, 33.73μM EPA (Figure B4).
 - `ScriptTSA_040226_run3` + `6BiochemFYP_040226_run3` → TSA 7, Feb 4: 10% EtOH, 72.73μM EPA (Figure 9).
 - `ScriptTSA_060226_run1_D` + `7BiochemFYP_060226_run1_D` → TSA 8, Feb 6: 10% EtOH, 50.62μM DAUDA (Figure 11).
 - `ScriptTSA_060226_run2_D` + `8BiochemFYP_060226_run2_D` → TSA 9, Feb 6: 10% EtOH, 18.41μM DAUDA (Figure 10).
